@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+  <title>Help Us Serve Your Pet Better - Quick Survey</title>
+
+  <style type="text/css">
+    /* Reset styles */
+    * {
+      box-sizing: border-box;
+    }
+
+    body,
+    table,
+    td,
+    a {
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    table,
+    td {
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    img {
+      -ms-interpolation-mode: bicubic;
+      border: 0;
+      display: block;
+      outline: none;
+      text-decoration: none;
+    }
+
+    /* Client-specific fixes */
+    .ReadMsgBody {
+      width: 100%;
+    }
+
+    .ExternalClass {
+      width: 100%;
+    }
+
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+      line-height: 100%;
+    }
+
+    /* Main styles */
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100% !important;
+      height: 100% !important;
+      background-color: #f8f9fa;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      padding: 30px 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .header img {
+      max-width: 180px;
+      height: auto;
+      margin: 0 auto 15px auto;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 1.3;
+    }
+
+    .intro-section {
+      padding: 30px 25px;
+      text-align: center;
+    }
+
+    .intro-section .pet-emoji {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .intro-section h2 {
+      margin: 0 0 15px 0;
+      font-size: 22px;
+      font-weight: bold;
+      color: #333333;
+    }
+
+    .intro-section p {
+      margin: 0 0 20px 0;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #666666;
+    }
+
+    .time-estimate {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #e8f4fd;
+      color: #1976d2;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+
+    .main-cta {
+      display: inline-block;
+      padding: 16px 40px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+      transition: transform 0.2s ease;
+    }
+
+    .main-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+    }
+
+    .survey-preview {
+      background-color: #f8f9fa;
+      padding: 30px 25px;
+      margin: 30px 0;
+    }
+
+    .survey-preview h3 {
+      margin: 0 0 20px 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333333;
+      text-align: center;
+    }
+
+    .question-preview {
+      background-color: #ffffff;
+      padding: 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border-left: 4px solid #667eea;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .question-preview h4 {
+      margin: 0 0 12px 0;
+      font-size: 15px;
+      font-weight: 600;
+      color: #333333;
+    }
+
+    .answer-options {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .answer-options li {
+      padding: 6px 0;
+      font-size: 14px;
+      color: #666666;
+      position: relative;
+      padding-left: 20px;
+    }
+
+    .answer-options li:before {
+      content: "○";
+      position: absolute;
+      left: 0;
+      color: #667eea;
+      font-weight: bold;
+    }
+
+    .incentive-section {
+      background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
+      padding: 25px;
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .incentive-section .gift-icon {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .incentive-section h3 {
+      margin: 0 0 10px 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: #d63031;
+    }
+
+    .incentive-section p {
+      margin: 0;
+      font-size: 14px;
+      color: #2d3436;
+      font-weight: 500;
+    }
+
+    .trust-indicators {
+      padding: 25px;
+      text-align: center;
+      background-color: #f8f9fa;
+    }
+
+    .trust-indicators h4 {
+      margin: 0 0 15px 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333333;
+    }
+
+    .trust-badges {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .trust-badge {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: #666666;
+      font-weight: 500;
+    }
+
+    .trust-badge .icon {
+      margin-right: 8px;
+      color: #28a745;
+      font-weight: bold;
+    }
+
+    .secondary-cta {
+      text-align: center;
+      padding: 20px 25px;
+    }
+
+    .secondary-cta p {
+      margin: 0 0 15px 0;
+      font-size: 14px;
+      color: #666666;
+      font-style: italic;
+    }
+
+    .btn-secondary {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: transparent;
+      color: #667eea;
+      text-decoration: none;
+      border: 2px solid #667eea;
+      border-radius: 25px;
+      font-weight: 600;
+      font-size: 16px;
+      transition: all 0.2s ease;
+    }
+
+    .btn-secondary:hover {
+      background-color: #667eea;
+      color: #ffffff;
+    }
+
+    .footer {
+      background-color: #2d3436;
+      padding: 25px 20px;
+      text-align: center;
+      color: #b2bec3;
+    }
+
+    .footer p {
+      margin: 0 0 10px 0;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .footer .company-name {
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .footer a {
+      color: #667eea;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Mobile responsive styles */
+    @media screen and (max-width: 600px) {
+      .container {
+        width: 100% !important;
+        border-radius: 0 !important;
+        margin: 0 !important;
+      }
+
+      .header {
+        padding: 25px 15px !important;
+      }
+
+      .header h1 {
+        font-size: 20px !important;
+      }
+
+      .intro-section {
+        padding: 25px 20px !important;
+      }
+
+      .intro-section h2 {
+        font-size: 20px !important;
+      }
+
+      .intro-section p {
+        font-size: 15px !important;
+      }
+
+      .main-cta {
+        padding: 14px 30px !important;
+        font-size: 16px !important;
+        width: 90% !important;
+      }
+
+      .survey-preview {
+        padding: 20px 15px !important;
+        margin: 20px 0 !important;
+      }
+
+      .question-preview {
+        padding: 15px !important;
+      }
+
+      .trust-badges {
+        flex-direction: column !important;
+        gap: 10px !important;
+      }
+
+      .incentive-section {
+        padding: 20px 15px !important;
+      }
+    }
+
+    /* Dark mode support */
+    @media (prefers-color-scheme: dark) {
+      .container {
+        background-color: #1a1a1a !important;
+      }
+
+      .intro-section {
+        background-color: #1a1a1a !important;
+      }
+
+      .intro-section h2 {
+        color: #ffffff !important;
+      }
+
+      .intro-section p {
+        color: #cccccc !important;
+      }
+
+      .survey-preview {
+        background-color: #2a2a2a !important;
+      }
+
+      .question-preview {
+        background-color: #1a1a1a !important;
+        color: #ffffff !important;
+      }
+
+      .question-preview h4 {
+        color: #ffffff !important;
+      }
+
+      .answer-options li {
+        color: #cccccc !important;
+      }
+
+      .trust-indicators {
+        background-color: #2a2a2a !important;
+      }
+
+      .trust-indicators h4 {
+        color: #ffffff !important;
+      }
+
+      .trust-badge {
+        color: #cccccc !important;
+      }
+    }
+
+    /* Outlook-specific fixes */
+    < !--[if mso]>.main-cta {
+      border: none !important;
+      mso-hide: all;
+    }
+
+    .btn-secondary {
+      border: 2px solid #667eea !important;
+    }
+
+    < ![endif]-->
+  </style>
+</head>
+
+<body>
+  <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f8f9fa;">
+    <tr>
+      <td align="center" valign="top" style="padding: 20px 10px;">
+
+        <!-- Container -->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" class="container">
+
+          <!-- Header -->
+          <tr>
+            <td class="header">
+              <img src="/paws-img.png" alt="Pet Care Survey Logo" width="180" height="50">
+              <h1>We'd Love Your Feedback!</h1>
+            </td>
+          </tr>
+
+          <!-- Intro Section -->
+          <tr>
+            <td class="intro-section">
+              <div class="pet-emoji">🐕🐱</div>
+              <h2>Help Us Better Understand Your Pet's Needs</h2>
+              <p>As a valued member of our pet-loving community, your insights matter to us. Share your experience and
+                help us improve our products and services.</p>
+
+              <div class="time-estimate">⏱️ Takes just 3-4 minutes</div>
+
+              <br>
+              <a href="#survey-link" class="main-cta" role="button">Start Survey</a>
+            </td>
+          </tr>
+
+          <!-- Survey Preview -->
+          <tr>
+            <td class="survey-preview">
+              <h3 style="color: #f8f9fa;">📋 Here's what we'll ask about:</h3>
+
+              <div class="question-preview">
+                <h4>1. Tell us about your pet</h4>
+                <ul class="answer-options">
+                  <li>Dog</li>
+                  <li>Cat</li>
+                  <li>Both dog and cat</li>
+                  <li>Other pet</li>
+                </ul>
+              </div>
+
+              <div class="question-preview">
+                <h4>2. How satisfied are you with our products?</h4>
+                <ul class="answer-options">
+                  <li>Very satisfied</li>
+                  <li>Satisfied</li>
+                  <li>Neutral</li>
+                  <li>Could be improved</li>
+                </ul>
+              </div>
+
+              <div class="question-preview">
+                <h4>3. What's most important for your pet's health?</h4>
+                <ul class="answer-options">
+                  <li>High-quality nutrition</li>
+                  <li>Regular exercise</li>
+                  <li>Veterinary care</li>
+                  <li>Mental stimulation</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Incentive Section -->
+          <tr>
+            <td class="incentive-section">
+              <div class="gift-icon">🎁</div>
+              <h3>Thank You Reward!</h3>
+              <p>Complete the survey and get 15% off your next order plus exclusive pet care tips</p>
+            </td>
+          </tr>
+
+          <!-- Trust Indicators -->
+          <tr>
+            <td class="trust-indicators">
+              <h4>Your Privacy & Security</h4>
+              <div class="trust-badges">
+                <div class="trust-badge">
+                  <span class="icon">🔒</span>
+                  <span>100% Secure</span>
+                </div>
+                <div class="trust-badge">
+                  <span class="icon">🚫</span>
+                  <span>No Spam</span>
+                </div>
+                <div class="trust-badge">
+                  <span class="icon">👥</span>
+                  <span>Anonymous Responses</span>
+                </div>
+              </div>
+            </td>
+          </tr>
+
+          <!-- Secondary CTA -->
+          <tr>
+            <td class="secondary-cta">
+              <p>Prefer to take the survey later?</p>
+              <a href="#survey-link" class="btn-secondary" role="button">Save Survey Link</a>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td class="footer">
+              <p class="company-name">Healthy Paws Pet Research</p>
+              <p>Your feedback helps us create better products for pets everywhere.</p>
+
+              <p style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #636e72;">
+                Questions? Contact us at <a href="mailto:feedback@healthypaws.com">feedback@healthypaws.com</a><br>
+                <a href="#unsubscribe">Unsubscribe</a> | <a href="#preferences">Email Preferences</a>
+              </p>
+
+              <p style="font-size: 11px; color: #636e72; margin-top: 15px;">
+                Healthy Paws Ltd, 123 Pet Research Way, London, SW1A 1AA<br>
+                © 2025 All rights reserved
+              </p>
+            </td>
+          </tr>
+
+        </table>
+
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
